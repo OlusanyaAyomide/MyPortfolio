@@ -1,0 +1,45 @@
+import React from 'react'
+import { motion } from 'framer-motion'
+
+export default function Hero() {
+
+  const boxVariants = {
+    initial: { y: "150px" },
+    animate: {
+      y: 0,
+      // transition: { staggerChildren: 0.05, ease: "easeInOut", duration: 1 },
+      transition:{
+        duration:3,
+        when:"beforeChildren",
+        staggerChildren:0.5
+      }
+    },
+  }
+  const listVariants = {
+    initial:{
+      opacity:0,
+      x:-150
+    },
+    animate:{
+      opacity:1,
+      x:0,
+      transition:{
+        // delay:3,
+        duration:0.5
+      }
+    }
+  }
+
+  return (
+    <motion.section className='cont border my-4 py-4' variants={boxVariants} initial="initial" animate="animate">
+      <div className='flex flex-wrap '>
+        <motion.div variants={listVariants} className='h-[150px] w-[150px] m-1 bg-red-500'>   </motion.div>
+        <motion.div variants={listVariants} className='h-[150px] w-[150px] m-1 bg-yellow-500'></motion.div>
+        <motion.div variants={listVariants} className='h-[150px] w-[150px] m-1 bg-blue-500'>  </motion.div>
+        <motion.div variants={listVariants} className='h-[150px] w-[150px] m-1 bg-green-500'> </motion.div>
+        <motion.div variants={listVariants} className='h-[150px] w-[150px] m-1 bg-orange-500'></motion.div>
+        <motion.div variants={listVariants} className='h-[150px] w-[150px] m-1 bg-purple-500'></motion.div>
+      </div>
+    </motion.section>
+  )
+}
