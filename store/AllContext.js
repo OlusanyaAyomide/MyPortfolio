@@ -2,7 +2,7 @@ import { createContext,useState } from "react";
 
 
 const AllContext = createContext({
-    activeSection:"",
+    activeSection:[],
     setActiveSection:function(){},
     headerRendered:true,
     setHeaderRenderd:function(){},
@@ -13,7 +13,7 @@ const AllContext = createContext({
 })
 
 export function AllContextProvider(props){
-  const [activeSection,setActiveSection] = useState("")
+  const [activeSection,setActiveSection] = useState([])
   const [headerRendered,setHeaderRenderd] = useState(false)
   const [isnavActive,setisNavActive] = useState(false)
   const [overlay,setOnOverlay] = useState(false)

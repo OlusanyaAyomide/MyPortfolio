@@ -4,6 +4,7 @@ import { HeroAnimation,HeroChildrenAnimation,HeroLineAnimation } from '@/utils/x
 import { heroText } from '@/utils/contants'
 import AllContext from '@/store/AllContext'
 import { useInView } from 'react-intersection-observer'
+import { ResumeLink } from '@/utils/contants'
 
 export default function Hero() {
   const {setHeaderRenderd,headerRendered,setActiveSection} = useContext(AllContext)
@@ -14,7 +15,7 @@ export default function Hero() {
     setHeaderRenderd(true)
   },[])
   useEffect(()=>{
-    if(inView){setActiveSection("")}
+    // if(inView){setActiveSection("")}
   },[inView])
 
   return (
@@ -35,7 +36,7 @@ export default function Hero() {
           <motion.h1 className='text-normal-text text-[30px] leading-[30px] md:leading-[60px] font-[600] sm:text-[50px] sm:leading-[48px] md:text-[px]' variants ={HeroChildrenAnimation}> <span> I reimagine the web with one line of code</span><span className='md:whitespace-nowrap lg:block'> at a time</span>
         </motion.h1>
         <motion.h1  className='lg:w-[70%] mt-6' variants ={HeroChildrenAnimation}>{heroText}</motion.h1>
-        <motion.button className='py-3 mt-6 block px-8 text-sundry border-sundry border rounded-[5px]' variants ={HeroChildrenAnimation}><a href="#">Resume</a></motion.button>
+        <motion.button className='py-3 mt-6 block px-8 text-sundry border-sundry border rounded-[5px]' variants ={HeroChildrenAnimation}><a href={ResumeLink}>Resume</a></motion.button>
         </div>
       </div>
     </motion.section>}

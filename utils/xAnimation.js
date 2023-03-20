@@ -1,3 +1,5 @@
+import { animate } from "framer-motion";
+
 export const sideAnimation = {
   initial: {
     opacity: 0,
@@ -41,7 +43,7 @@ export const HeroAnimation = (width) => {
 };
 export const HeroChildrenAnimation = {
   initial: {
-    y: 50,
+    y: 30,
     opacity: 0,
   },
   animate: {
@@ -62,7 +64,7 @@ export const HeroLineAnimation = (width) => {
       height: "100%",
       transition: {
         duration: 0.5,
-        delay: width < 752 ? 2.5 : 4,
+        delay: width < 752 ? 2 : 4,
       },
     },
   };
@@ -132,6 +134,8 @@ export const NavBarMotion = {
     x: 0,
     transition: {
       duration: 0.5,
+      when: "beforeChildren",
+      staggerChildren: 0.3,
     },
   },
   animateback: {
@@ -153,7 +157,117 @@ export const TopNavMotion = {
     transition: {
       duration: 2,
       delay: 2.5,
-      when:"beforeChildren"
+      when: "beforeChildren",
+    },
+  },
+};
+
+export const fadeIn = {
+  initial: {
+    opacity: 0,
+  },
+  animate: {
+    opacity: 1,
+    transition: {
+      delay: 0.5,
+      ease: "linear",
+      when: "beforeChildren",
+      staggerChildren: 0.1,
+    },
+  },
+};
+export const rollin = {
+  initial: {
+    x: -80,
+    rotate: -720,
+    opacity: 0,
+  },
+  animate: {
+    x: 0,
+    rotate: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.05,
+      default: { ease: "linear" },
+    },
+  },
+};
+
+export const ExperienceLine = {
+  initial: {
+    height: 0,
+  },
+  animate: {
+    height: "100%",
+    transition: {
+      duration: 2.5,
+      delay: 4,
+    },
+  },
+};
+
+export const projectMain = {
+  initial: {
+    opacity: 0,
+  },
+  animate: {
+    opacity: 1,
+    transition: {
+      delay: 0.5,
+      staggerChildren: 0.5,
+      when: "beforeChildren",
+    },
+  },
+};
+
+export const projectChildren = {
+  initial: {
+    opacity: 0,
+  },
+  animate: {
+    opacity: 1,
+    transition: {
+      duration: 0.5,
+    },
+  },
+};
+
+export const BorderAnimation = {
+  animate: {
+    rotate: [0, 45, 135, 135],
+    scale: [0.4, 1, 0.7, 0.3],
+    opacity: [0, 1, 1, 1],
+    transition: {
+      delay: 0.3,
+      duration: 3,
+    },
+  },
+};
+
+export const Border = {
+  initial: {
+    opacity: 0,
+  },
+  animate: {
+    opacity: 1,
+    transition: {
+      delay: 0.1 + 3 / 4,
+    },
+  },
+};
+export const ImageAnimation = {
+  initials: {
+    scale: 0.8,
+    opacity: 0,
+    rotate: -45,
+  },
+  animates: {
+    opacity:1,
+    scale: [1.6, 1, 1, 1],
+    rotate: [0, -45, -135, -135],
+    transition: {
+      delay: 0.3,
+      duration: 3,
     },
   },
 };

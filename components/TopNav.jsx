@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 export default function TopNav() {
   return (
-   <motion.section className='fixed z-30 md:hidden bg-bg-trans top-0 px-6 w-full flex justify-between items-center' variants={TopNavMotion} initial="initial" animate="animate">
+   <motion.section className='fixed z-50 md:hidden bg-bg-trans top-0 px-6 w-full flex justify-between items-center' variants={TopNavMotion} initial="initial" animate="animate">
     <NavbarButton/>
     <div>
         <div className='h-[65px] w-[65px]'>

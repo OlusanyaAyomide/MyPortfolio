@@ -9,14 +9,16 @@ module.exports = {
       fontFamily: {
         chakara: ["Chakra Petch", "sans-serif"],
       },
-      colors:{
+      colors: {
         "bg-main": "var(--background)",
-        "thick-text":"var(--text-thick)",
-        "normal-text":"var(--text-normal)",
-        "dominant":"var(--dominant)",
-        "sundry":"var(--sundry)",
-        "bg-trans":"var(--backgroundlight)",
-      }
+        "thick-text": "var(--text-thick)",
+        "normal-text": "var(--text-normal)",
+        dominant: "var(--dominant)",
+        sundry: "var(--sundry)",
+        "bg-trans": "var(--backgroundlight)",
+        backdrop: "var(--backdrop)",
+        backdroplight:"var(--backdroplight)",
+      },
     },
   },
   plugins: [],
