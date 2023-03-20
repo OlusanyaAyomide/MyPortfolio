@@ -22,7 +22,7 @@ export default function Projects() {
       }))
       return newlist
     })}
-  },[inView])
+  },[inView,control,setActiveSection])
   return(
     <Fragment>
       {headerRendered && <div className='mt-24 cont' id='Projects' ref={ref}>

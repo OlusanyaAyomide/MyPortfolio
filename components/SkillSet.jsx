@@ -22,7 +22,7 @@ export default function SkillSet() {
         }))
         return newlist
       })}
-    },[inView])
+    },[inView,control,setActiveSection])
   return (
     <Fragment>
       {headerRendered && <section className='mt-24 ' ref={ref} id="Skills">

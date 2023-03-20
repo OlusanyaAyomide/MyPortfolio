@@ -20,6 +20,6 @@ export const useTimeOut = (timer)=>{
   const [val,setval] = useState(false)
   useEffect(()=>{
       setTimeout(()=>{setval(true)},timer)
-  },[])
+  },[timer])
   return {val}
 }

@@ -16,7 +16,7 @@ export default function Hero() {
   },[])
   useEffect(()=>{
     // if(inView){setActiveSection("")}
-  },[inView])
+  },[inView,setHeaderRenderd])
 
   return (
     <Fragment>

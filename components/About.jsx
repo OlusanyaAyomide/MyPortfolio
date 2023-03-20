@@ -18,7 +18,7 @@ export default function About() {
       }))
       return newlist
     })}
-  },[inView])
+  },[inView,setActiveSection])
   return (
     <Fragment>
     {headerRendered && <section className='cont mt-8' ref={ref} id="About">

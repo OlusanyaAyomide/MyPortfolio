@@ -15,13 +15,16 @@ import Projects from '@/components/Projects'
 import ContactMe from '@/components/ContactMe'
 import {  useTimeOut } from '@/components/useFetch'
 import Animate from '@/components/Animate'
+import Head from 'next/head'
 
-
-export default function index() {
+export default function Home() {
   const {overlay,isnavActive} = useContext(AllContext)
   const {val} = useTimeOut(3000)
   return (
     <Fragment>
+      <Head>
+        <title>Ayomide | Dev </title>
+      </Head>
       {val && <>
       <TopNav/>
       {overlay && <Overlay/>}

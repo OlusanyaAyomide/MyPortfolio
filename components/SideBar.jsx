@@ -16,7 +16,7 @@ export default function SideBar() {
     <motion.section className='fixed z-40 md:hidden w-10/12 sm:w-8/12 items-center pb-12 h-screen bg-bg-main flex' variants={NavBarMotion} initial="initial" animate="animate" exit="animateback">
       <div className='flex flex-col items-center w-full'>
         {navsections.map((item,key)=>{
-          return <Link to={`${item}`} duration={500} smooth={true} offset={-80}><motion.button variants={HeroChildrenAnimation} className='my-3 text-4xl uppercase tracking-wide text-thick-text font-bold stroke' key={key} onClick={handleClick}>{item}</motion.button></Link>
+          return <Link to={`${item}`} duration={500} smooth={true} offset={-80} key={key}><motion.button variants={HeroChildrenAnimation} className='my-3 text-4xl uppercase tracking-wide text-thick-text font-bold stroke' onClick={handleClick}>{item}</motion.button></Link>
         })}
         <motion.div className='mt-20 w-full flex items-center justify-evenly px-16' variants={HeroChildrenAnimation} >
           {contacts.map((item,key)=>{

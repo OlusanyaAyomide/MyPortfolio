@@ -9,20 +9,19 @@ export default function NavbarButton() {
     const control = useAnimation()
  
     
-    const handleChange = ()=>{
-      setOnOverlay((prev=>!prev))
-      setisNavActive((prev=>!prev))
-    }
-
-    useEffect(()=>{
-      if (!mounted){
-        setMounted(true)
-        return}
-        if(isnavActive){control.start("animate")}
-        else{
-          control.start("animateback")}
-        
-    },[isnavActive])
+  const handleChange = ()=>{
+    setOnOverlay((prev=>!prev))
+    setisNavActive((prev=>!prev))
+  }
+  useEffect(()=>{
+    if (!mounted){
+      setMounted(true)
+      return}
+      if(isnavActive){control.start("animate")}
+      else{
+        control.start("animateback")}
+      
+  },[isnavActive,control,mounted])
   return (
         <button className='flex flex-col justify-between h-[24px]  w-[30px] cursor-pointer' onClick={handleChange}>
             <motion.span className='toggler' variants={toggleAnimation(1)} initial="initial" animate={control}></motion.span>
