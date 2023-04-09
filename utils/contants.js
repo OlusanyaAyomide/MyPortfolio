@@ -42,9 +42,9 @@ export const contacts = [
 export const ResumeLink =
   "https://docs.google.com/document/d/1gpoH6CZCoA-vkq_XfotK4yWRC6LrBpdYFe8My6XYbk0/";
 
-export const heroText ="Salutations! 👋 My name is Olusanya Ayomide and I am a frontend engineer. Although I also enjoy working on the server-side, I am constantly intrigued to see how things work under the hood. I have always been fascinated by building things from the ground up. This drive led me to learn block programming back in 2021. I quickly realized that I needed to do something more advanced and programming-like, so I started learning my first programming language, which was Python, also in 2021."
+export const heroText =
+  "I am a software engineer specialized in building frontend web applications,often backend if the need arises. i always prioritize satisfying my clients and end users in any project i build";
 
-I am passionate about contributing to open-source and building software that adds value to its end-users. Aside from programming, I am enthusiastic about science in general, especially anything related to space."
 export const navsections = [
   "About",
   "Skills",
@@ -53,7 +53,9 @@ export const navsections = [
   "Contact",
 ];
 
-export const AboutMeTop = `Salute 👋,!My name is Olusanya Ayomide and i am frontend engineer,although i aslo enjoy working on the server side,as i am constantly intrigued to see how things work behind the hood,i have always been fascinated about building stuffs from the ground up,this drive made me learn block progrmming back in 2021,i was quick enough to realize i needed to do something more crude and programming-like,i started learning my first programming language which was python also in 2021.`;
+export const AboutMeTop = `Salutations! 👋 My name is Olusanya Ayomide and I am a frontend engineer. Although I also enjoy working on the server-side, I am constantly intrigued to see how things work under the hood. I have always been fascinated by building things from the ground up. This drive led me to learn block programming back in 2021. I quickly realized that I needed to do something more advanced and programming-like, so I started learning my first programming language, which was Python, also in 2021.
+
+I am passionate about contributing to open-source and building software that adds value to its end-users. Aside from programming, I am enthusiastic about science in general, especially anything related to space..`;
 
 export const AboutMeBelow = `I am passionate about contributing to open source and building softwares that adds value to it's end users,Aside Programming i am enthutiased by science in general,espcially anything regarding space.`;
 
