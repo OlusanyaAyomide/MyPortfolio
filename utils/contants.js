@@ -55,7 +55,7 @@ export const navsections = [
 
 export const AboutMeTop = `Salutations! 👋 My name is Olusanya Ayomide and I am a frontend engineer. Although I also enjoy working on the server-side, I am constantly intrigued to see how things work under the hood. I have always been fascinated by building things from the ground up. This drive led me to learn block programming back in 2021. I quickly realized that I needed to do something more advanced and programming-like, so I started learning my first programming language, which was Python, also in 2021.
 
-I am passionate about contributing to open-source and building software that adds value to its end-users. Aside from programming, I am enthusiastic about science in general, especially anything related to space..`;
+`;
 
 export const AboutMeBelow = `I am passionate about contributing to open source and building softwares that adds value to it's end users,Aside Programming i am enthutiased by science in general,espcially anything regarding space.`;
 
