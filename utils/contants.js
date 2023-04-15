@@ -87,7 +87,7 @@ export const ExperienceList = [
   },
   {
     heading: "Front End Developer",
-    text: "I am currently leading a frontEnd team in 'jusClickIt' start up",
+    text: "I am currently leading a frontEnd team at cliqueShoppa start up",
   },
 ];
 
@@ -130,6 +130,13 @@ export const ProjctList = [
     language: ["HTML,JS,tailwindcss"],
     repo: "https://github.com/OlusanyaAyomide/Caferio4",
     link: "https://632b84780496493bb4116b82--dapper-zuccutto-e96c46.netlify.app/",
+  },
+    {
+    name: "Sass Website Landing Page",
+    description: "A beautiful landing page website with super cool animations",
+    language: ["react", "tailwindcss"],
+    repo: "https://github.com/OlusanyaAyomide/Saas_landing-page",
+    link: "https://sasslandingpage.vercel.app/",
   },
   {
     name: "BloomChats",
