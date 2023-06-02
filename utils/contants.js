@@ -117,6 +117,14 @@ export const ProjctList = [
     link: "https://youtube-clone-ten-brown.vercel.app",
   },
   {
+    name: "Velex Advisory Clone",
+    description:
+      "This is an ongoing project for whiteMark company",
+    language: ["NextJs", "tailwindcss"],
+    repo: null,
+    link: "https://velex.vercel.app/",
+  },
+  {
     name: "HooBank Landing Page",
     description:
       "Hookbank landing page with highly advanced animation functionalities",
