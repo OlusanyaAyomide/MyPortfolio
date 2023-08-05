@@ -82,8 +82,8 @@ export const ExperienceList = [
     text: "I began teaching myself how to code in 2021,devoting almost all my spare time in increasing my skill set,i started with python and basic web automation tasks before focusing fully on web development",
   },
   {
-    heading: "Web Automation",
-    text: "Took a role that made me put my webAutomation python skills into use, I automated a data entry tasks through connecting an excel file with python webdriver",
+    heading: "Front End Developer",
+    text: "Currently working as a frontEnd developer at Gratmus Digital service whicch a subset company to JustHiredLTD",
   },
   {
     heading: "Front End Developer",
@@ -92,6 +92,27 @@ export const ExperienceList = [
 ];
 
 export const ProjctList = [
+    {
+    name: "Waradata",
+    description:
+      "This is a website for buying Vtu Data,Airtime and making other subscriptions",
+    language: ["React", "nodeJS", "Tailwind css","ShadCN","Typescript"],
+    link: "https://waradata.com",
+  },
+  {
+    name: "JohnWell forms",
+    description:
+      "This site is a complex multistep forms for collecting variety of CAC jobs from ",
+    language: ["React", "Shadcn", "Tailwind css","Nodejs","Typescript"],
+    link: "https://johnwell.netlify.app",
+  },
+  {
+    name: "JohnWell forms Admin",
+    description:
+      "The Admin section of Johnwell forms,includes complex admin dashboard and user managemet from super user ",
+    language: ["React", "Shadcn", "Tailwind css","Nodejs","Typescript"],
+    link: "https://johnwelladmin.netlify.app",
+  },
   {
     name: "ChatGTP clone",
     description:

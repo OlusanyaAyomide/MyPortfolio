@@ -35,17 +35,17 @@ export default function Projects() {
                   <div className='flex justify-between mb-4 items-center'>
                       <span className='text-3xl sm:text-4xl text-sundry'><FiFolder/></span>
                       <div className='flex'>
-                        <span className={`text-xl ${item.link?"mr-4":""}`}><a href={item.repo}><FiGithub/></a></span>
-                        {item.link && <span className='text-xl'>  <a href={item.link}><FiExternalLink/></a></span>}
+                        <span className={`text-xl ${item.link?"mr-4":""}`}><a target='_blank' href={item.repo}><FiGithub/></a></span>
+                        {item.link && <span className='text-xl'>  <a target='_blank' href={item.link}><FiExternalLink/></a></span>}
                       </div>
                     </div>   
                     <div>
                         <h1 className='text-thick-text text sm:text-2xl mb-2'>{item.name}</h1>
-                        <span className='text-base'>{item.description}</span>
-                        <div className='flex'>
-                          {item.language.map((item,key)=>{
-                            <span className={`p-2 rounded-md border border-thick-text ${key!==0?"ml-3":""}`} key={key}>{item}</span>
-                          })}
+                        <span className='text-base mb-3 block'>{item.description}</span>
+                        <div className='flex flex-wrap'>
+                          {item.language.map((item,key)=>(
+                            <span className={`p-1 text-xs rounded-md mr-3 mb-1 border border-thick-text ${key!==0?"":""}`} key={key}>{item}</span>
+                    ))}
                   </div>
                 </div>
                 </div>
