@@ -99,6 +99,12 @@ export const ProjctList = [
     language: ["React", "nodeJS", "Tailwind css","ShadCN","Typescript"],
     link: "https://waradata.com",
   },
+    {
+    name: "BloomChats",
+    description:"Currently in development",
+    language: ["Nextjs", "nodeJS", "Tailwind css","ShadCN","Typescript","webSockets"],
+    link: "https://lag-hub-olusanyaayomide.vercel.app/",
+  },
   {
     name: "JohnWell forms",
     description:
