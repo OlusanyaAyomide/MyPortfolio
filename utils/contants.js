@@ -40,7 +40,7 @@ export const contacts = [
 ];
 
 export const ResumeLink =
-  "https://docs.google.com/document/d/1gpoH6CZCoA-vkq_XfotK4yWRC6LrBpdYFe8My6XYbk0/";
+  "https://docs.google.com/document/d/e/2PACX-1vTtC1KweZuvG0vlA_oe9JzzKfAMjy996ulIVtXQYBuE4CNoYSrXNSwg4w3zujZaOBgqektGSxetGpYA/pub";
 
 export const heroText =
   "I am a software engineer specialized in building frontend web applications,often backend if the need arises. i always prioritize satisfying my clients and end users in any project i build";
