@@ -92,18 +92,19 @@ export const ExperienceList = [
 ];
 
 export const ProjctList = [
+   {
+    name: "goConnect",
+    description:"A fully packed social media application where all functionalities are in real Time",
+    language: ["Nextjs", "nodeJS", "Tailwind css","ShadCn","Typescript","webSockets","Django","Langchain"],
+    link: "https://goconnecting.netlify.app/",
+    repo: "https://github.com/OlusanyaAyomide/Lag_Hub",
+  },
     {
     name: "Waradata",
     description:
       "This is a website for buying Vtu Data,Airtime and making other subscriptions",
     language: ["React", "nodeJS", "Tailwind css","ShadCN","Typescript"],
     link: "https://waradata.com",
-  },
-    {
-    name: "BloomChats",
-    description:"Currently in development",
-    language: ["Nextjs", "nodeJS", "Tailwind css","ShadCN","Typescript","webSockets"],
-    link: "https://lag-hub-olusanyaayomide.vercel.app/",
   },
   {
     name: "JohnWell forms",
