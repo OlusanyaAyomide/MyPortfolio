@@ -102,7 +102,7 @@ export const ProjctList = [
     {
     name: "Waradata",
     description:
-      "This is a website for buying Vtu Data,Airtime and making other subscriptions",
+      "This is a website for purchasing Vtu Data,Airtime,Bill payments and making other subscriptions",
     language: ["React", "nodeJS", "Tailwind css","ShadCN","Typescript"],
     link: "https://waradata.com",
   },
@@ -113,13 +113,15 @@ export const ProjctList = [
     language: ["React", "Shadcn", "Tailwind css","Nodejs","Typescript"],
     link: "https://johnwell.netlify.app",
   },
-  {
-    name: "JohnWell forms Admin",
-    description:
-      "The Admin section of Johnwell forms,includes complex admin dashboard and user managemet from super user ",
-    language: ["React", "Shadcn", "Tailwind css","Nodejs","Typescript"],
-    link: "https://johnwelladmin.netlify.app",
-  },
+  
+  
+  // {
+  //   name: "JohnWell forms Admin",
+  //   description:
+  //     "The Admin section of Johnwell forms,includes complex admin dashboard and user managemet from super user ",
+  //   language: ["React", "Shadcn", "Tailwind css","Nodejs","Typescript"],
+  //   link: "https://johnwelladmin.netlify.app",
+  // },
   {
     name: "ChatGTP clone",
     description:
@@ -128,6 +130,14 @@ export const ProjctList = [
     repo: "https://github.com/OlusanyaAyomide/chat-gtp-frontend/",
     link: "https://astounding-marigold-e4f5ca.netlify.app/",
   },
+    {
+    name: "Stack Blog",
+    description:
+      "This is a basic blog application where users can create ,like,comment and  edit blogs",
+    language: ["React","Django","Shadcn", "Tailwind css",sta"Typescript"],
+    link: "https://stackblog.vercel.app/",
+    repo: "https://github.com/OlusanyaAyomide/stackblogfrontEnd",
+  },
   {
     name: "Maginito Ecommerce Website",
     description:
@@ -135,6 +145,14 @@ export const ProjctList = [
     language: ["React", "Django Rest", "Tailwind css"],
     link: "https://dashing-klepon-02b933.netlify.app/",
     repo: "https://github.com/OlusanyaAyomide/Ecommerce-website",
+  },
+   {
+    name: "Scholinka Todo",
+    description:
+      "A todo application where users can create,schedule,edit and delete tasks",
+    language: ["React", "NodeJs", "Tailwind css"],
+    link: "https://scholalinka-todo.netlify.app/",
+    repo: "https://github.com/OlusanyaAyomide/Scholalinka-todo",
   },
   {
     name: "YouTube Like clone",
@@ -175,18 +193,10 @@ export const ProjctList = [
     link: "https://sasslandingpage.vercel.app/",
   },
   {
-    name: "BloomChats",
-    description:
-      "A Community web application with features such as ability to join room,follow users,reply messages and much more",
-    language: ["Django", "Django Templates"],
-    link: null,
-    repo: "https://github.com/OlusanyaAyomide/bloomchatss",
-  },
-  {
     name: "yalbase website lnding page",
     description: "A basic landing pag website which was built for a client",
     language: ["react", "tailwindcss"],
-    repo: "https://curious-gingersnap-05ba29.netlify.app/",
-    link: "https://github.com/OlusanyaAyomide/Yalbase-website",
+    repo: "https://github.com/OlusanyaAyomide/Yalbase-website",
+    link: "https://curious-gingersnap-05ba29.netlify.app/",
   },
 ];
