@@ -134,7 +134,7 @@ export const ProjctList = [
     name: "Stack Blog",
     description:
       "This is a basic blog application where users can create ,like,comment and  edit blogs",
-    language: ["React","Django","Shadcn", "Tailwind css",sta"Typescript"],
+    language: ["React","Django","Shadcn", "Tailwind css","Typescript"],
     link: "https://stackblog.vercel.app/",
     repo: "https://github.com/OlusanyaAyomide/stackblogfrontEnd",
   },
