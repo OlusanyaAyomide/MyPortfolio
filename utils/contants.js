@@ -53,7 +53,7 @@ export const navsections = [
   "Contact",
 ];
 
-export const AboutMeTop = `Salutations! 👋 My name is Olusanya Ayomide and I am a frontend engineer. Although I also enjoy working on the server-side, I am constantly intrigued to see how things work under the hood. I have always been fascinated by building things from the ground up. This drive led me to learn block programming back in 2021. I quickly realized that I needed to do something more advanced and programming-like, so I started learning my first programming language, which was Python, also in 2021.
+export const AboutMeTop = `Salutations! 👋 My name is Olusanya Ayomide ,I am a frontend engineer although I also enjoy working on the server-side, I am constantly intrigued to see how things work under the hood. I have always been fascinated by building things from the ground up. This drive led me to learn block programming back in 2021. I quickly realized that I needed to do something more advanced and programming x  xx-like, so I started learning my first programming language, which was Python, also in 2021.
 
 `;
 
