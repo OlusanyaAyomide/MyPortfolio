@@ -79,15 +79,15 @@ export const skillSet = [
 export const ExperienceList = [
   {
     heading: "Front End Developer At Proprightly",
-    text: "PropRightly is a canadian start up company building a Property management system , which is B2B inclined.. I am tasked with collaborating with other developers in the company in bulding , maintaining and implementing user facing features",
+    text: "PropRightly is a canadian start up company building a Property management system , which is B2B inclined.. I am tasked with collaborating with other developers in the company in bulding , maintaining and implementing user facing features .",
   },
   {
     heading: "Full Stack Developer",
-    text: "Currentyl hoding a Full stack developer role at utilor, A nigerian fintech company ",
+    text: "Currently hoding a Full stack developer role at utilour, A nigerian fintech company .",
   },
   {
     heading: "Just hired",
-    text: "Just hired is a company based in the phillipines with a subset in Nigeria, Worked and implemnted several features and product for the company",
+    text: "Just hired is a company based in the phillipines with a subset in Nigeria, Worked and implemnted several features and product for the company .",
   },
 ];
 
