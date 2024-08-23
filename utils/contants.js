@@ -86,7 +86,7 @@ export const ExperienceList = [
     text: "Currently hoding a Full stack developer role at utilour, A nigerian fintech company .",
   },
   {
-    heading: "Just hired",
+    heading: "Front End Developer",
     text: "Just hired is a company based in the phillipines with a subset in Nigeria, Worked and implemnted several features and product for the company .",
   },
 ];
@@ -98,6 +98,13 @@ export const ProjctList = [
     language: ["Nextjs", "nodeJS", "Tailwind css","ShadCn","Typescript","webSockets","Django","Langchain"],
     link: "https://goconnecting.netlify.app/",
     repo: "https://github.com/OlusanyaAyomide/Lag_Hub",
+  },
+   {
+    name: "Pronext",
+    description:"A landing page for a recruitment agency ",
+    language: ["Nextjs", "Tailwind css", "ShadCn", "Typescript"],
+    link: "https://pronextglobal.com/",
+    repo: null,
   },
     {
     name: "Waradata",
