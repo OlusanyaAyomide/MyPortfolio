@@ -40,7 +40,7 @@ export const contacts = [
 ];
 
 export const ResumeLink =
-  "https://docs.google.com/document/d/1QxKg7AEW4SqyuToEfnMmz4alusi3jwKY7JNHlllYUD4/edit?usp=sharing";
+  "https://docs.google.com/document/d/175MZNiQp4b8fqC_SitqrL12_FM_MxY33D0qtaXbylRI/edit?usp=sharing";
 
 export const heroText =
   "I am a software engineer specialized in building frontend web applications,often backend if the need arises. i always prioritize satisfying my clients and end users in any project i build";
@@ -78,16 +78,16 @@ export const skillSet = [
 
 export const ExperienceList = [
   {
-    heading: "Self Taught",
-    text: "I began teaching myself how to code in 2021,devoting almost all my spare time in increasing my skill set,i started with python and basic web automation tasks before focusing fully on web development",
+    heading: "Front End Developer At Proprightly",
+    text: "PropRightly is a canadian start up company building a Property management system , which is B2B inclined.. I am tasked with collaborating with other developers in the company in bulding , maintaining and implementing user facing features",
   },
   {
-    heading: "Front End Developer",
-    text: "Currently working as a frontEnd developer at Gratmus Digital service whicch a subset company to JustHiredLTD",
+    heading: "Full Stack Developer",
+    text: "Currentyl hoding a Full stack developer role at utilor, A nigerian fintech company ",
   },
   {
-    heading: "Front End Developer",
-    text: "I am currently leading a frontEnd team at cliqueShoppa start up",
+    heading: "Just hired",
+    text: "Just hired is a company based in the phillipines with a subset in Nigeria, Worked and implemnted several features and product for the company",
   },
 ];
 
